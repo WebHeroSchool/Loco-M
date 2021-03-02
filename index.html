@@ -2,14 +2,122 @@
 <html>
  <head>
   <meta charset="utf-8">
-  <title>Пример страницы</title>
-  <style>
-  p { color:  navy; }
-  </style>
+  <title>LOCO</title>
+  <link rel="stylesheet" href="font.css">
+  <link rel="stylesheet" href="style.css">
  </head>
  <body>
-  <p>Страница на HTML5</p>
+  <header class="header">
+   <div class="header__header_color_black">
+    <h1 class="header__title">LOCO</h1>
+    <div class="header__language">RU</div>
+   </div>
+   <div class="header__header_color_white">
+    <div class="hamburger-menu">
+     <input id="menu__toggle" type="checkbox" />
+     <label class="menu__btn" for="menu__toggle">
+      <span></span>
+     </label>
+    </div>
+   </div>
+  </header>
+  <main>
+    <section class="1-section">
+       <img src="img/image1.png" alt="Новая коллекция" class="1-section__img"/>
+          <div class="1-section__description-wrapper">
+            <h2 class="1-section__title">Новая коллекция</h2>
+            <p class="1-section__text">Бесплатная доставка включена. Предложение действует на сайте loco.com и в магазинах до 18.09.2018. Для получения скидки в магазинах предъявите скриншот данного предложения. В магазинах предложение не суммируется с другими акциями, предложениями и распродажей.</p>
+            <a class="1-section__button" href="#">ЧИТАТЬ ДАЛЬШЕ</a>
+            <a class="1-section__button-other-offers" href="#">ДРУГИЕ ПРЕДЛОЖЕНИЯ</a>
+            <a class="1-section__arrow"</a>
+          </div>
+       <div class="wrapper">
+         <div class="1-section__social-media">
+         <div class="1-section__social-media-button_inst">
+          <img src="img/image2.png" alt="Instagram" class="1-section__inst-icon"/>
+         </div>
+         <div class="1-section__social-media-button_vk">
+          <img src="img/image3.png" alt="VK" class="1-section__vk-icon"/>
+         </div>
+         <div class="1-section__social-media-button_f-book">
+          <img src="img/image4.png" alt="Facebook" class="1-section__f-book-icon"/>
+         </div>
+        </div>
+       <img src="img/image5.png" alt="" class="1-section__oval"/>
+       <img src="img/image6.png" alt="" class="1-section__znak"/>
+     </section>
+    <section class="2-section">
+        <div class="2-section-wrapper">
+          <img src="img/image7.png" alt="Кожаный клатч" class="2-section__img-grey"/>
+          <img src="img/image8.png" alt="Кожаный клатч" class="2-section__img-pink"/>
+          <article class="2-section__main-inf">
+                      <div class="2-section__description">
+                       <h3 class="2-section__title">Кожаный клатч</h3>
+                       <p class="2-section__subtitle">ОСЕННЯЯ КОЛЛЕКЦИЯ</p>
+                       <span class="2-section__text">Бесплатная доставка включена. Предложение действует на сайте loco.com и в магазинах до 18.09.2018. Для получения скидки в магазинах предъявите скриншот данного предложения. В магазинах предложение не суммируется с другими акциями, предложениями и распродажей.</span>
+                        <div class="2-section__choose-wrapper">
+                          <div class="2-section__choose-color-container">
+                            <a href="#">
+                              <div class="2-section__choose-color 2-section__choose-color_grey"></div>
+                            </a>
+                            <a href="#">
+                              <div class="2-section__choose-color 2-section__choose-color_pink 2-section__choose-color_active"></div>
+                            </a>
+                            <a href="#">
+                              <div class="2-section__choose-color 2-section__choose-color_blue"></div>
+                            </a>
+                            <a href="#">
+                              <div class="2-section__choose-color 2-section__choose-color_green"></div>
+                            </a>
+                          </div>
+                          <div class="2-section__price">1990₽</div>
+                         </div>
+                       <div class="2-section__buttons-wrapper">
+               <div class="2-section__counter">
+                 <a class="2-section__counter-element" href="#">-</a>
+                 <div class="2-section__counter-element">1</div>
+                 <a class="2-section__counter-element" href="#">+</a>
+               </div>
+               <a class="2-section__add-button" href="#">ДОБАВИТЬ В КОРЗИНУ</a>
+             </div>
+             </div>
+           <a href="#">
+             <div class="2-section__other-offers-wrapper">
+               <div class="2-section__other-offers-button">ДРУГИЕ ТОВАРЫ НА LOCO.COM</div>
+               <hr class="2-section__arrow"/>
+             </div>
+           </a>
+         </article>
+       </div>
+     </section>
+    <section class="3-section">
+         <article class="3-section__main-inf">
+           <img src="img/image9.png" alt="Serene Total Look" class="3-section__img"/>
+           <div class="3-section__description-wrapper">
+             <div class="3-section__description">
+                 <h2 class="3-section__title">Serene Total Look</h2>
+                 <p class="3-section__subtitle">ОСЕННЯЯ КОЛЛЕКЦИЯ</p>
+               <span class="3-section__text">Джинсы, свитер, обувь.<br/>В комплект также входит пакет ароматного чая и кружка. </span>
+               <div class="3-section__buttons-wrapper">
+                 <div class="3-section__counter">
+                   <a class="3-section__counter-element" href="#">-</a>
+                   <div class="3-section__counter-element">1</div>
+                   <a class="3-section__counter-element" href="#">+</a>
+                 </div>
+                 <a class="3-section__add-button" href="#">ДОБАВИТЬ В КОРЗИНУ</a>
+               </div>
+             </div>
+             <div class="3-section__other-offers-wrapper">
+               <div class="3-section__other-offers-button">ДРУГИЕ ТОВАРЫ НА LOCO.COM</div>
+               <hr class="3-section__arrow"/>
+             </div>
+           </div>
+         </article>
+         <address class="3-section__address">
+           <p class="3-section__address-text">РАЗРАБОТАНО В</p>
+           <img src="img/image10.png" alt="WebHero School" class="3-section__address-img"/>
+         </address>
+       </section>
+     </main> 
  </body>
 </html>
-Посмотреть пример
-Посмотреть пример
