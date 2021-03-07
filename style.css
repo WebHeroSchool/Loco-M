@@ -1,0 +1,142 @@
+body {
+  font-family: 'montserratregular', arial, helvetica, sans-serif;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  width: 100%;
+  height: 92px;
+}
+
+.wrapper__color_black {
+  width: 32%;
+  height: 900px;
+  background: #000;
+}
+
+.header__title,
+.header__language {
+  display: inline-block;
+}
+
+.header__title {
+  font: 500 30px/37px 'montserratregular', arial, helvetica, sans-serif;
+  color: #fff;
+  margin: 36px 238px 500px 52px;
+  letter-spacing: 0.07em;
+}
+
+.header__language {
+  font: 500 20px/25px 'montserratregular', arial, helvetica, sans-serif;
+  color: #fff;
+}
+
+.header__language:hover {
+	opacity: 0.4;
+	cursor: pointer;
+}
+
+.header__language::after {
+	content: "";
+	margin: 2px 7px;
+	border: solid white;
+	border-width: 0 2px 2px 0;
+	display: inline-block;
+	padding: 3px;
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+}
+
+.wrapper__color_white {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.hamburger-menu {
+  background: #E5E5E5;
+  width: 92px;
+  height: 92px;
+  border: dashed 1px red;
+}
+
+.menu__btn > span::before,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;
+  width: 35px;
+  height: 4px;
+  background-color: #000;
+  transition-duration: 0.25s;
+}
+
+.menu__btn > span::before {
+  content: '';
+  margin-top: 0;
+}
+
+.menu__btn > span::after {
+  content: '';
+  margin-top: 9px;
+}
+
+#menu__toggle {
+  opacity: 0;
+}
+
+#menu__toggle:checked ~ .menu__btn > span::before {
+  top: 0;
+  transform: rotate(0);
+}
+
+#menu__toggle:checked ~ .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+
+.menu__btn {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 28px;
+  right: 38px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.a-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.a-section__img {
+  position: absolute;
+  left: 186px;
+  top: 169px;
+  border-radius: 0px;
+}
+
+.description-wrapper {
+  padding: 8% 11% 0 55%;
+  height: 397px;
+  width: 491px;
+  border-radius: 0px;
+
+}
+
+.a-section__title {
+  font: 700 80px/82px 'montserratbold', arial, helvetica, sans-serif;
+  color: #000;
+}
+
+.a-section__text {
+  font: 500 15px/21px 'montserratregular', arial, helvetica, sans-serif;
+  color: #000;
+
+}
