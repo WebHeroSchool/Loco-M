@@ -1,5 +1,5 @@
 body {
-  font-family: montserratregular, arial, helvetica, sans-serif;
+  font-family: proxima_novaregular, arial, helvetica, sans-serif;
   margin: 0;
 }
 
@@ -23,14 +23,14 @@ body {
 }
 
 .header__title {
-  font: 500 30px/37px montserratregular, arial, helvetica, sans-serif;
+  font: 500 30px/37px proxima_novaregular, arial, helvetica, sans-serif;
   color: #fff;
   margin: 36px 238px 500px 52px;
   letter-spacing: 0.07em;
 }
 
 .header__language {
-  font: 500 20px/25px montserratregular, arial, helvetica, sans-serif;
+  font: 500 20px/25px proxima_novaregular, arial, helvetica, sans-serif;
   color: #fff;
 }
 
@@ -131,12 +131,12 @@ body {
 }
 
 .a-section__title {
-  font: 700 80px/82px montserratbold, arial, helvetica, sans-serif;
+  font: 700 80px/82px proxima_novaregular, arial, helvetica, sans-serif;
   color: #000;
 }
 
 .a-section__text {
-  font: 500 15px/21px montserratregular, arial, helvetica, sans-serif;
+  font: 500 15px/21px proxima_novaregular, arial, helvetica, sans-serif;
   color: #000;
 
 }
