@@ -60,7 +60,6 @@ body {
   background: #E5E5E5;
   width: 92px;
   height: 92px;
-  border: dashed 1px red;
 }
 
 .menu__btn > span::before,
@@ -110,7 +109,7 @@ body {
 }
 
 .a-section {
-  display: flex;
+  display: block;
   justify-content: space-between;
   margin: 0;
 }
@@ -124,6 +123,7 @@ body {
 
 .description-wrapper {
   padding: 8% 11% 0 55%;
+  margin: 0 0 134px 0;
   height: 397px;
   width: 491px;
   border-radius: 0px;
@@ -139,7 +139,7 @@ body {
 .a-section__text {
   font: 500 15px/21px proxima_novaregular, arial, helvetica, sans-serif;
   color: #000;
-  margin: 0 0 36px 0;
+  margin: 0 80px 36px 0;
 }
 
 .a-section__button {
@@ -164,15 +164,76 @@ body {
 .a-section__button-other-offers {
   display: inline;
   font: 13px proxima_novaregular, arial, helvetica, sans-serif;
-  margin: 0 19px 0 0
+  margin: 0;
   box-sizing: border-box;
   color: #000;
   text-decoration: none;
 }
 
 .a-section__arrow {
+  display: inline;
+  margin: 0 0 0 10px;
   width: 43px;
-  height: 0px;
-  border: 1.5px solid #000;
-  transform: rotate(-180deg);
+  height: 10px;
+  border-width: 0;
+}
+
+.f-section__arrow:hover {
+	opacity: 0.4;
+}
+
+.button__vector {
+
+}
+.wrapper {
+  display: inline;
+  justify-content: center;
+	left: 10px;
+	bottom: 28px;
+	align-items: center;
+	flex-wrap: nowrap;
+	width: 240px;
+	height: 100px;
+}
+
+.a-section__social-media {
+  display: flex;
+  padding: 9px 0 9px 50px;
+  width: 34px;;
+	height: 2.9vw;
+}
+
+.f-section__social-media-button-inst,
+.f-section__social-media-button-vk,
+.f-section__social-media-button-f-book {
+  transition: opacity .5s ease-out;
+}
+
+.f-section__social-media-button-inst:hover,
+.f-section__social-media-button-vk:hover,
+.f-section__social-media-button-f-book:hover {
+	opacity: 0.4;
+	cursor: pointer;
+}
+
+.a-section__vk-icon {
+padding: 0 14px;
+}
+
+.scroll {
+  position: relative;
+  margin-right: 50%;
+  width: 27px;
+  height: 46px;
+}
+
+.a-section__img-oval {
+  position: absolute;
+  padding: 0 0 0 500px;
+}
+
+.a-section__img-sign {
+  position: absolute;
+  background-size: 50%;
+  padding: 10px 0 0 512px;
 }
