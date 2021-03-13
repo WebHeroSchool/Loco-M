@@ -6,7 +6,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  margin: 0;
+  margin: 0 0 70px 0;
   width: 100%;
   height: 92px;
 }
@@ -131,12 +131,48 @@ body {
 }
 
 .a-section__title {
-  font: 80px/82px proxima_nova_condensedbold, arial, helvetica, sans-serif;
+  font: 800 80px/82px proxima_nova_condensedbold, arial, helvetica, sans-serif;
   color: #000;
+  margin: 0 0 12px 0;
 }
 
 .a-section__text {
   font: 500 15px/21px proxima_novaregular, arial, helvetica, sans-serif;
   color: #000;
+  margin: 0 0 36px 0;
+}
 
+.a-section__button {
+  display: inline-block;
+  font: 13px proxima_novaregular, arial, helvetica, sans-serif;
+  margin: 0 54px 36px 0;
+  width: 203px;
+  height: 44px;
+  border: 1.5px solid #000;
+  box-sizing: border-box;
+  color: #000;
+  padding: 14px 41px;
+  text-decoration: none;
+  transition: opacity 0.5s;
+}
+
+.a-section__button:hover {
+  opacity: 0.5;
+  background: #0056ec;
+}
+
+.a-section__button-other-offers {
+  display: inline;
+  font: 13px proxima_novaregular, arial, helvetica, sans-serif;
+  margin: 0 19px 0 0
+  box-sizing: border-box;
+  color: #000;
+  text-decoration: none;
+}
+
+.a-section__arrow {
+  width: 43px;
+  height: 0px;
+  border: 1.5px solid #000;
+  transform: rotate(-180deg);
 }
