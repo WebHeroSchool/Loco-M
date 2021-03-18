@@ -171,7 +171,7 @@ body {
   border-width: 0;
 }
 
-.f-section__arrow:hover {
+.a-section__arrow:hover {
 	opacity: 0.4;
 }
 
@@ -197,15 +197,15 @@ body {
 	height: 2.9vw;
 }
 
-.f-section__social-media-button-inst,
-.f-section__social-media-button-vk,
-.f-section__social-media-button-f-book {
+.a-section__social-media-button-inst,
+.a-section__social-media-button-vk,
+.a-section__social-media-button-f-book {
   transition: opacity .5s ease-out;
 }
 
-.f-section__social-media-button-inst:hover,
-.f-section__social-media-button-vk:hover,
-.f-section__social-media-button-f-book:hover {
+.a-section__social-media-button-inst:hover,
+.a-section__social-media-button-vk:hover,
+.a-section__social-media-button-f-book:hover {
 	opacity: 0.4;
 	cursor: pointer;
 }
