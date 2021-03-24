@@ -462,15 +462,16 @@ body {
   justify-content: space-between;
   position: relative;
 	width: 80%;
-	height: 800px;
+	height: 900px;
+  background: top left 36.5% no-repeat url(img/image12.png);
 	align-items: center;
 }
 
 .c-section__img {
-  width: 57.5%;
+  width: 77.5%;
 	height: auto;
 	margin-right: 0;
-	margin-left: 6%;
+	margin-left: 8%;
   bottom: 115px;
 }
 
@@ -483,21 +484,102 @@ body {
 }
 
 .c-section__description {
-	top: 27.5%;
-  left: 56.5%;
-  width: 475px;
-  height: 351px;
+  position: absolute;
+  top: 28.5%;
+  left: 71.5%;
+  width: 430px;
+  height: 331px;
 	background: #fae8e4;
-	padding-left: 3.5%;
+	padding: 16px 0 0 4.5%;
+}
+
+.c-section__title {
+  font: 800 46px/11px proxima_nova_condensedbold, arial, helvetica, sans-serif;
+  letter-spacing: 0.07em;
+}
+
+.c-section__subtitle {
+  font: 800 16px/0 proxima_nova_condensedbold, arial, helvetica, sans-serif;
+  letter-spacing: 0.07em;
+  color: #000;
+  opacity: 0.5;
+  margin: 0 0 40px 0;
+}
+
+.c-section__text {
+  display: block;
+  font-size: 15px;
+  line-height: 21px;
+  color: #000;
+  opacity: 0.5;
+  letter-spacing: 0.07em;
+  width: 360px;
+  padding: 0 10px 0 0;
+}
+
+.c-section__buttons-wrapper {
+  padding-top: 56px;
+	width: 370px;
+	height: 43px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.c-section__counter {
+  padding: 15px 20px 17px 18px;
+	margin-right: 15px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 58px;
+	height: 12px;
+	border: 1.5px solid #000;
+}
+
+.c-section__counter-element-minus,
+.c-section__counter-element-plus {
+  text-decoration: none;
+  font: 500 15px proxima_novaregular, arial, helvetica, sans-serif;
+  width: 12px;
+}
+
+.c-section__counter-element {
+	font: 500 15px proxima_novaregular, arial, helvetica, sans-serif;
+	transition: opacity .5s ease-out;
+  margin: 0 22px;
+}
+
+.c-section__counter-element:hover {
+	opacity: 0.4;
+	cursor: pointer;
+}
+
+.c-section__add-button {
+  padding: 22px 45px;
+	width: 163px;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 0px;
+  text-decoration: none;
+  color: #000;
+	border: 1.5px solid #000;
+	transition: opacity .5s ease-out;
+  letter-spacing: 0.07em;
+}
+
+.c-section__add-button:hover {
+  opacity: 0.4;
+  cursor: pointer;
 }
 
 .c-section__other-offers-wrapper {
   display: flex;
 	justify-content: space-between;
 	align-items: center;
-  width: 480px;
+  width: 345px;
   color: #000;
-  margin: 0 0 0 1%;
+  margin: 410px 0 0 10%;
   text-decoration: none;
   transition: opacity .5s ease-out;
 }
@@ -536,7 +618,6 @@ body {
 	right: 0;
 	bottom: 0;
   width: 220px;
-
 }
 
 .c-section__address-text {
