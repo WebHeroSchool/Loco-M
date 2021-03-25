@@ -1,6 +1,6 @@
 body {
   font-family: proxima_novaregular, arial, helvetica, sans-serif;
-  margin: 0;
+  margin: 0 auto;
 }
 
 .header {
@@ -58,7 +58,7 @@ body {
 
 .hamburger-menu {
   background: #E5E5E5;
-  width: 82px;
+  width: 76px;
   height: 92px;
 }
 
@@ -117,7 +117,7 @@ body {
 }
 
 .description-wrapper {
-  background: top 50% left 25% no-repeat url(img/image1.png);
+  background: top left 25.5% no-repeat url(img/image1.png);
   padding: 106px 0 5% 55.5%;
   margin: 0 0 67px 0;
   height: 397px;
@@ -126,7 +126,7 @@ body {
 }
 
 .a-section__title {
-  font: 800 80px/82px proxima_nova_condensedbold, arial, helvetica, sans-serif;
+  font: 800 78px/82px proxima_nova_condensedbold, arial, helvetica, sans-serif;
   color: #000;
   margin: 0 0 14px 0;
 }
@@ -140,16 +140,17 @@ body {
 
 .a-section__button {
   display: inline-block;
-  font: 13px proxima_novaregular, arial, helvetica, sans-serif;
+  font: 14px proxima_novaregular, arial, helvetica, sans-serif;
   margin: 0 46px 36px 0;
   width: 203px;
   height: 44px;
   border: 1.5px solid #000;
   box-sizing: border-box;
   color: #000;
-  padding: 14px 41px;
+  padding: 12px 31px;
   text-decoration: none;
   transition: opacity 0.5s;
+  letter-spacing: 0.07em;
 }
 
 .a-section__button:hover {
@@ -196,7 +197,7 @@ body {
 
 .a-section__social-media {
   display: flex;
-  padding: 9px 0 9px 50px;
+  padding: 6px 0 9px 50px;
   width: 34px;;
 	height: 2.9vw;
 }
@@ -279,9 +280,9 @@ body {
 }
 
 .b-section__title {
-  font: 800 40px/41px proxima_nova_condensedbold, arial, helvetica, sans-serif;
+  font: 800 39px/41px proxima_nova_condensedbold, arial, helvetica, sans-serif;
   color: #000;
-  margin: 46px 0 0 0;
+  margin: 47px 0 0 0;
 }
 
 .b-section__subtitle {
@@ -610,6 +611,10 @@ body {
 
 .button__vector4 {
   margin: 0 0 40px 0;
+}
+
+.button__vector5 {
+  display: none;
 }
 
 .c-section__address {
@@ -1013,7 +1018,7 @@ body {
   }
 
   .b-section__title {
-    font: 800 20px/21px proxima_nova_condensedbold, arial, helvetica, sans-serif;
+    font: 800 19px/21px proxima_nova_condensedbold, arial, helvetica, sans-serif;
     margin: 20px 0 0 0;
   }
 
@@ -1078,7 +1083,8 @@ body {
 
   .b-section__counter,
   .c-section__address,
-  .c-section__counter {
+  .c-section__counter,
+  .button__vector4 {
     display: none;
   }
 
@@ -1098,10 +1104,11 @@ body {
   }
 
   .c-section__img {
-    width: 118.5%;
+    width: 119.5%;
     height: auto;
     top: 10px;
     margin-left: 5%;
+    box-shadow: 5px 5px 30px #c0afbd;
   }
 
   .c-section__description {
@@ -1146,13 +1153,35 @@ body {
   }
 
   .c-section__other-offers-wrapper {
-    display: flex;
-    font: 15px/18px proxima_novaregular, arial, helvetica, sans-serif;
+    display: block;
   	justify-content: space-between;
   	align-items: center;
     width: 205px;
     height: 40px;
     margin: 210px 0 0 187px;
-    padding: 0 10px;
+    padding: 0;
+  }
+
+  .c-section__description-wrapper {
+    height: 230px;
+  }
+
+  .c-section__other-offers-button {
+    font: 500 15px/18px proxima_novaregular, arial, helvetica, sans-serif;
+    text-decoration: none;
+    color: #000;
+    width: 140px;
+    height: 38px;
+    letter-spacing: 0.07em;
+  }
+
+  .c-section__arrow {
+    border-width: 0px;
+  }
+
+  .button__vector5 {
+    display: flex;
+    margin: 0;
+    text-decoration: none;
   }
 }
