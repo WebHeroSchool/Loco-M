@@ -422,8 +422,8 @@ body {
 }
 
 .b-section__other-offers-wrapper:hover {
-	opacity: 0.4;
-	cursor: pointer;
+  opacity: 0.4;
+  cursor: pointer;
 }
 
 .b-section__other-offers-button {
@@ -546,7 +546,7 @@ body {
 
 .c-section__counter-element {
   font: 500 15px proxima_novaregular, arial, helvetica, sans-serif;
-  transition: opacity .5s ease-out;
+  transition: opacity 0.5s ease-out;
   margin: 0 22px;
 }
 
@@ -884,7 +884,7 @@ body {
 
   .b-section__main-inf {
     display: flex;
-  	justify-content: space-between;
+    justify-content: space-between;
     text-align: left;
     background: no-repeat url(img/image8.png);
     padding: 26% 0 0 0;
@@ -1153,8 +1153,8 @@ body {
 
   .c-section__other-offers-wrapper {
     display: block;
-  	justify-content: space-between;
-  	align-items: center;
+    justify-content: space-between;
+    align-items: center;
     width: 205px;
     height: 40px;
     margin: 210px 0 0 187px;
