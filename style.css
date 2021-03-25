@@ -388,8 +388,8 @@ body {
 }
 
 .b-section__counter-element:hover {
-	opacity: 0.4;
-	cursor: pointer;
+  opacity: 0.4;
+  cursor: pointer;
 }
 
 .b-section__add-button {
@@ -418,7 +418,7 @@ body {
   color: #000;
   margin: 0 0 0 1%;
   text-decoration: none;
-  transition: opacity .5s ease-out;
+  transition: opacity 0.5s ease-out;
 }
 
 .b-section__other-offers-wrapper:hover {
@@ -564,7 +564,7 @@ body {
   text-decoration: none;
   color: #000;
   border: 1.5px solid #000;
-  transition: opacity .5s ease-out;
+  transition: opacity 0.5s ease-out;
   letter-spacing: 0.07em;
 }
 
@@ -575,13 +575,13 @@ body {
 
 .c-section__other-offers-wrapper {
   display: flex;
-	justify-content: space-between;
-	align-items: center;
+  justify-content: space-between;
+  align-items: center;
   width: 345px;
   color: #000;
   margin: 410px 0 0 10%;
   text-decoration: none;
-  transition: opacity .5s ease-out;
+  transition: opacity 0.5s ease-out;
 }
 
 .c-section__other-offers-wrapper:hover {
