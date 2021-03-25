@@ -442,7 +442,7 @@ body {
 }
 
 .b-section__arrow:hover {
-	opacity: 0.4;
+  opacity: 0.4;
 }
 
 .button__vector3 {
@@ -551,8 +551,8 @@ body {
 }
 
 .c-section__counter-element:hover {
-	opacity: 0.4;
-	cursor: pointer;
+  opacity: 0.4;
+  cursor: pointer;
 }
 
 .c-section__add-button {
