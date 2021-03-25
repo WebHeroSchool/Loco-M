@@ -177,7 +177,7 @@ body {
 }
 
 .a-section__arrow:hover {
-	opacity: 0.4;
+  opacity: 0.4;
 }
 
 .button__vector2 {
@@ -211,8 +211,8 @@ body {
 .a-section__social-media-button-inst:hover,
 .a-section__social-media-button-vk:hover,
 .a-section__social-media-button-f-book:hover {
-	opacity: 0.4;
-	cursor: pointer;
+  opacity: 0.4;
+  cursor: pointer;
 }
 
 .a-section__vk-icon {
@@ -358,9 +358,9 @@ body {
   padding-top: 56px;
   width: 365px;
   height: 43px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .b-section__counter {
@@ -382,8 +382,8 @@ body {
 }
 
 .b-section__counter-element {
-	font: 500 15px proxima_novaregular, arial, helvetica, sans-serif;
-	transition: opacity .5s ease-out;
+  font: 500 15px proxima_novaregular, arial, helvetica, sans-serif;
+  transition: opacity 0.5s ease-out;
   margin: 0 22px;
 }
 
@@ -394,14 +394,14 @@ body {
 
 .b-section__add-button {
   padding: 22px 45px;
-	width: 163px;
-	font-weight: 500;
-	font-size: 13px;
-	line-height: 0px;
+  width: 163px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 0px;
   text-decoration: none;
   color: #000;
-	border: 1.5px solid #000;
-	transition: opacity .5s ease-out;
+  border: 1.5px solid #000;
+  transition: opacity .5s ease-out;
   letter-spacing: 0.07em;
 }
 
@@ -461,26 +461,26 @@ body {
   display: flex;
   justify-content: space-between;
   position: relative;
-	width: 80%;
-	height: 900px;
+  width: 80%;
+  height: 900px;
   background: top left 36.5% no-repeat url(img/image12.png);
-	align-items: center;
+  align-items: center;
 }
 
 .c-section__img {
   width: 77.5%;
-	height: auto;
-	margin-right: 0;
-	margin-left: 8%;
+  height: auto;
+  margin-right: 0;
+  margin-left: 8%;
   bottom: 115px;
 }
 
 .c-section__description-wrapper {
   display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	height: 430px;
-	width: 27%;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 430px;
+  width: 27%;
 }
 
 .c-section__description {
@@ -489,8 +489,8 @@ body {
   left: 71.5%;
   width: 430px;
   height: 331px;
-	background: #fae8e4;
-	padding: 16px 0 0 4.5%;
+  background: #fae8e4;
+  padding: 16px 0 0 4.5%;
 }
 
 .c-section__title {
@@ -519,22 +519,22 @@ body {
 
 .c-section__buttons-wrapper {
   padding-top: 56px;
-	width: 370px;
-	height: 43px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+  width: 370px;
+  height: 43px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .c-section__counter {
   padding: 15px 20px 17px 18px;
-	margin-right: 15px;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	width: 58px;
-	height: 12px;
-	border: 1.5px solid #000;
+  margin-right: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 58px;
+  height: 12px;
+  border: 1.5px solid #000;
 }
 
 .c-section__counter-element-minus,
@@ -619,8 +619,8 @@ body {
 .c-section__address {
   display: flex;
   position: absolute;
-	right: 0;
-	bottom: 0;
+  right: 0;
+  bottom: 0;
   width: 220px;
 }
 
@@ -658,7 +658,7 @@ body {
   }
 
   .b-section__main-inf {
-  	margin: 0 0 0 53%;
+    margin: 0 0 0 53%;
   }
 
   .c-section__other-offers-wrapper {
@@ -684,7 +684,7 @@ body {
   }
 
   .b-section__main-inf {
-  	margin: 0 0 0 48%;
+    margin: 0 0 0 48%;
   }
 
   .b-section__img-grey {
@@ -971,8 +971,8 @@ body {
     text-align: left;
     padding: 130px 0 0 0;
     margin: 0;
-    background-size: 50%;
     background: top 100% left no-repeat url(img/image11.png);
+    background-size: 50%;
     height: 397px;
   }
 
@@ -1095,10 +1095,10 @@ body {
     display: block;
     justify-content: space-between;
     position: relative;
-  	width: 80%;
-  	height: 560px;
+    width: 80%;
+    height: 560px;
     background: top left 41% no-repeat url(img/image13.png);
-  	align-items: center;
+    align-items: center;
     padding: 36px 0 0 0;
   }
 
@@ -1175,7 +1175,7 @@ body {
   }
 
   .c-section__arrow {
-    border-width: 0px;
+    border-width: 0;
   }
 
   .button__vector5 {
