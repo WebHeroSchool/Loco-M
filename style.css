@@ -780,7 +780,7 @@ body {
 
   .a-section__button {
     width: 140px;
-    padding: 14px 11px;
+    padding: 14px 8px;
   }
 
   .a-section__text {
@@ -862,6 +862,7 @@ body {
     height: 360px;
     padding: 378px 0 0 26%;
     background: top 10% left 1% no-repeat url(img/image1.png);
+    background-size: 60%;
   }
 
   .a-section__title {
@@ -900,7 +901,7 @@ body {
     text-align: left;
     padding: 16% 0 0 0;
     margin: 0;
-    height: 810px;
+    height: 820px;
     width: 80%;
   }
 
