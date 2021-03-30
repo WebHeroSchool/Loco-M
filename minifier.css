@@ -262,7 +262,7 @@ body{font-family:proxima_novaregular,arial,helvetica,sans-serif;margin:0 auto}
 
 .c-section__main-inf{width:45%}}
 
-@media (max-width: 600px){.header__language,.a-section__text,.a-section__button,.a-section__button-other-offers,.button__vector,.a-section__social-media,.b-section__other-offers-wrapper{display:none}
+@media (max-width: 600px){.header__language,.a-section__text,.a-section__button,.a-section__button-other-offers,.button__vector1,.a-section__social-media,.b-section__other-offers-wrapper{display:none}
 
 .wrapper__color_white,.wrapper__color_black{height:92px}
 
