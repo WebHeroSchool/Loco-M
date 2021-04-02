@@ -973,9 +973,8 @@ body {
   }
 
   .a-section__title {
-    font: 700 50px/51px proxima_nova_condensedbold, arial, helvetica, sans-serif;
-    margin: 234px 0 0 32px;
-    letter-spacing: 0.06em;
+    font: 800 50px/51px proxima_nova_condensedbold, arial, helvetica, sans-serif;
+    margin: 237px 0 0 24px;
   }
 
   .description-wrapper {
@@ -997,7 +996,7 @@ body {
 
   .button__vector2 {
     display: flex;
-    margin: 0 0 0 35%;
+    margin: 0 0 0 46%;
   }
 
   .a-section {
