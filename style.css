@@ -11,7 +11,7 @@ body {
 }
 
 .wrapper__color_black {
-  width: 48%;
+  width: 47%;
   height: 900px;
   background: #000;
 }
@@ -58,7 +58,7 @@ body {
 
 .hamburger-menu {
   background: #e5e5e5;
-  width: 76px;
+  width: 92px;
   height: 92px;
 }
 
@@ -100,8 +100,8 @@ body {
   display: flex;
   align-items: center;
   position: absolute;
-  top: 28px;
-  right: 22px;
+  top: 27px;
+  right: 37px;
   width: 26px;
   height: 26px;
   cursor: pointer;
@@ -118,7 +118,7 @@ body {
 
 .description-wrapper {
   background: top left 25.5% no-repeat url(img/image1.png);
-  padding: 106px 0 5% 55.5%;
+  padding: 106px 0 5% 55%;
   margin: 0 0 67px 0;
   height: 397px;
   width: 491px;
@@ -185,18 +185,20 @@ body {
 }
 
 .wrapper {
-  display: inline;
-  justify-content: center;
+  display: inline-block;
+  justify-content: space-between;
+  margin-right: 0;
   left: 10px;
   bottom: 28px;
   align-items: center;
   flex-wrap: nowrap;
   width: 240px;
-  height: 100px;
+  height: 54px;
 }
 
 .a-section__social-media {
   display: flex;
+  justify-content: space-between;
   padding: 6px 0 9px 50px;
   width: 34px;
   height: 2.9vw;
@@ -220,21 +222,24 @@ body {
 }
 
 .scroll {
-  position: relative;
-  margin-right: 50%;
-  width: 27px;
+  display: flex;
+  position: absolute;
+  text-align: center;
+  margin: 0 0 0 45.5%;
+  width: 32px;
   height: 46px;
 }
 
 .a-section__img-oval {
   position: absolute;
-  padding: 0 0 0 500px;
+  margin: 0 auto;
 }
 
 .a-section__img-sign {
   position: absolute;
   background-size: 50%;
-  padding: 10px 0 0 512px;
+  padding: 10px 0 0 12px;
+  margin: 0 auto;
 }
 
 .b-section {
@@ -264,7 +269,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 0 0 0 63%;
+  margin: 0 0 0 62.5%;
   height: 824px;
   width: 488px;
 }
@@ -272,7 +277,7 @@ body {
 .b-section__description {
   width: 390px;
   height: 554px;
-  padding: 0 40px 0 60px;
+  padding: 0 40px 0 54px;
   margin: 168px 0 0 0;
   background: white;
   box-shadow: 5px 5px 30px #c0afbd;
@@ -289,6 +294,7 @@ body {
   color: #000;
   opacity: 0.5;
   margin: 14px 0 62px 0;
+  letter-spacing: 0.07em;
 }
 
 .b-section__text {
@@ -463,7 +469,7 @@ body {
   position: relative;
   width: 80%;
   height: 900px;
-  background: top left 36.5% no-repeat url(img/image12.png);
+  background: top left 36% no-repeat url(img/image12.png);
   align-items: center;
 }
 
@@ -486,8 +492,8 @@ body {
 .c-section__description {
   position: absolute;
   top: 28.5%;
-  left: 71.5%;
-  width: 430px;
+  left: 71%;
+  width: 422px;
   height: 331px;
   background: #fae8e4;
   padding: 16px 0 0 4.5%;
@@ -500,7 +506,7 @@ body {
 
 .c-section__subtitle {
   font: 800 16px/0 proxima_nova_condensedbold, arial, helvetica, sans-serif;
-  letter-spacing: 0.07em;
+  letter-spacing: 0.03em;
   color: #000;
   opacity: 0.5;
   margin: 0 0 40px 0;
@@ -621,13 +627,13 @@ body {
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 220px;
+  width: 230px;
 }
 
 .c-section__address-text {
   font: 800 12px/15px proxima_nova_condensedbold, arial, helvetica, sans-serif;
   margin-right: 10px;
-  padding: 0 0 8px 8px;
+  padding: 0 0 8px 0;
 }
 
 .c-section__address-img {
@@ -668,7 +674,7 @@ body {
 
 @media (max-width: 1120px) {
   .header__title {
-    margin: 36px 32% 0 56px;
+    margin: 36px 25% 0 56px;
   }
 
   .description-wrapper {
@@ -705,13 +711,12 @@ body {
 }
 
 @media (max-width: 980px) {
-  .header__language,
-  .a-section__social-media {
-    display: none;
-  }
-
   .b-section-wrapper {
     width: 100%;
+  }
+
+  .header__title {
+    margin: 36px 20% 0 56px;
   }
 
   .hamburger-menu {
@@ -776,6 +781,11 @@ body {
     padding: 378px 0 0 33%;
     background: top 10% left 30% no-repeat url(img/image1.png);
     background-size: 60%;
+  }
+
+  .header__language,
+  .a-section__social-media {
+    display: none;
   }
 
   .a-section__button {
@@ -943,7 +953,7 @@ body {
   .hamburger-menu {
     background: #ededed;
     height: 70px;
-    width: 54px;
+    width: 70px;
   }
 
   .menu__btn > span::before,
@@ -958,8 +968,8 @@ body {
     display: flex;
     align-items: center;
     position: absolute;
-    top: 15px;
-    right: 6px;
+    top: 16px;
+    right: 24px;
   }
 
   .a-section__title {
@@ -974,6 +984,7 @@ body {
     margin: 0;
     background: top 100% left no-repeat url(img/image11.png);
     height: 397px;
+    width: 376px;
   }
 
   .header__title {
@@ -1155,7 +1166,7 @@ body {
     display: block;
     justify-content: space-between;
     align-items: center;
-    width: 205px;
+    width: 80px;
     height: 40px;
     margin: 210px 0 0 187px;
     padding: 0;
