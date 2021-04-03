@@ -496,12 +496,14 @@ body {
   width: 422px;
   height: 331px;
   background: #fae8e4;
-  padding: 16px 0 0 4.5%;
+  padding: 20px 0 0 4%;
 }
 
 .c-section__title {
-  font: 800 46px/11px proxima_nova_condensedbold, arial, helvetica, sans-serif;
-  letter-spacing: 0.07em;
+  display: block;
+  font: 800 45px/1px proxima_nova_condensedbold, arial, helvetica, sans-serif;
+  letter-spacing: 0.08em;
+  margin: 40px 0;
 }
 
 .c-section__subtitle {
