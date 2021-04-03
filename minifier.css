@@ -2,7 +2,7 @@ body{font-family:proxima_novaregular,arial,helvetica,sans-serif;margin:0 auto}
 
 .header{display:flex;justify-content:space-between;margin:0 0 78px 0;height:92px}
 
-.wrapper__color_black{width:48%;height:900px;background:#000}
+.wrapper__color_black{width:47%;height:900px;background:#000}
 
 .header__title,.header__language{display:inline-block}
 
@@ -16,7 +16,7 @@ body{font-family:proxima_novaregular,arial,helvetica,sans-serif;margin:0 auto}
 
 .wrapper__color_white{display:flex;justify-content:flex-end;height:900px;width:100%}
 
-.hamburger-menu{background:#e5e5e5;width:76px;height:92px}
+.hamburger-menu{background:#e5e5e5;width:92px;height:92px}
 
 .menu__btn>span::before,.menu__btn>span::after{display:block;position:absolute;width:35px;height:4px;background-color:#000;transition-duration:0.25s}
 
@@ -26,11 +26,11 @@ body{font-family:proxima_novaregular,arial,helvetica,sans-serif;margin:0 auto}
 
 #menu__toggle{opacity:0}
 
-#menu__toggle:checked~.menu__btn>span::before{top:0;transform:rotate(0)}
+#menu__toggle:checked~.menu__btn>span::before{top:8px;transform:rotate(0)}
 
 #menu__toggle:checked~.menu__btn>span::after{top:0;transform:rotate(90deg)}
 
-.menu__btn{display:flex;align-items:center;position:absolute;top:28px;right:22px;width:26px;height:26px;cursor:pointer;z-index:1}
+.menu__btn{display:flex;align-items:center;position:absolute;top:27px;right:37px;width:26px;height:26px;cursor:pointer;z-index:1}
 
 .a-section{display:block;justify-content:space-between;position:relative;margin:0;height:730px}
 
@@ -52,7 +52,7 @@ body{font-family:proxima_novaregular,arial,helvetica,sans-serif;margin:0 auto}
 
 .button__vector2{display:none}
 
-.wrapper{display:inline;justify-content:center;left:10px;bottom:28px;align-items:center;flex-wrap:nowrap;width:240px;height:100px}
+.wrapper{display:inline-block;;justify-content:space-between;left:10px;bottom:28px;align-items:center;flex-wrap:nowrap;width:240px;height:54px}
 
 .a-section__social-media{display:flex;padding:6px 0 9px 50px;width:34px;height:2.9vw}
 
@@ -62,11 +62,11 @@ body{font-family:proxima_novaregular,arial,helvetica,sans-serif;margin:0 auto}
 
 .a-section__vk-icon{padding:0 14px}
 
-.scroll{position:relative;margin-right:50%;width:27px;height:46px}
+.scroll{display:flex;position:absolute;text-align:center;margin: 0 0 0 45.5%;width:32px;height:46px}
 
-.a-section__img-oval{position:absolute;padding:0 0 0 500px}
+.a-section__img-oval{position:absolute;margin: 0 auto}
 
-.a-section__img-sign{position:absolute;background-size:50%;padding:10px 0 0 512px}
+.a-section__img-sign{position:absolute;background-size:50%;padding:10px 0 0 12px;margin: 0 auto}
 
 .b-section{height:900px;background:#fae8e4}
 
@@ -78,11 +78,11 @@ body{font-family:proxima_novaregular,arial,helvetica,sans-serif;margin:0 auto}
 
 .b-section__main-inf{display:flex;flex-direction:column;justify-content:space-between;margin:0 0 0 63%;height:824px;width:488px}
 
-.b-section__description{width:390px;height:554px;padding:0 40px 0 60px;margin:168px 0 0 0;background:white;box-shadow:5px 5px 30px #c0afbd}
+.b-section__description{width:390px;height:554px;padding:0 40px 0 54px;margin:168px 0 0 0;background:white;box-shadow:5px 5px 30px #c0afbd}
 
 .b-section__title{font:800 39px/41px proxima_nova_condensedbold, arial, helvetica, sans-serif;color:#000;margin:47px 0 0 0}
 
-.b-section__subtitle{font:800 16px/16px proxima_nova_condensedbold, arial, helvetica, sans-serif;color:#000;opacity:0.5;margin:14px 0 62px 0}
+.b-section__subtitle{font:800 16px/16px proxima_nova_condensedbold, arial, helvetica, sans-serif;color:#000;opacity:0.5;margin:14px 0 62px 0;letter-spacing: 0.07em}
 
 .b-section__text{font:15px/21px proxima_novaregular, arial, helvetica, sans-serif;margin:0 20px 0 0;opacity:0.5;letter-spacing:0.07em}
 
@@ -140,11 +140,11 @@ body{font-family:proxima_novaregular,arial,helvetica,sans-serif;margin:0 auto}
 
 .c-section__description-wrapper{display:flex;flex-direction:column;justify-content:space-between;height:430px;width:27%}
 
-.c-section__description{position:absolute;top:28.5%;left:71.5%;width:430px;height:331px;background:#fae8e4;padding:16px 0 0 4.5%}
+.c-section__description{position:absolute;top:28.5%;left:71.5%;width:422px;height:331px;background:#fae8e4;padding:16px 0 0 4.5%}
 
 .c-section__title{font:800 46px/11px proxima_nova_condensedbold,arial,helvetica,sans-serif;letter-spacing:0.07em}
 
-.c-section__subtitle{font:800 16px/0 proxima_nova_condensedbold, arial, helvetica, sans-serif;letter-spacing:0.07em;color:#000;opacity:0.5;margin:0 0 40px 0}
+.c-section__subtitle{font:800 16px/0 proxima_nova_condensedbold, arial, helvetica, sans-serif;letter-spacing:0.03em;color:#000;opacity:0.5;margin:0 0 40px 0}
 
 .c-section__text{display:block;font-size:15px;line-height:21px;color:#000;opacity:0.5;letter-spacing:0.07em;width:360px;padding:0 10px 0 0}
 
@@ -176,9 +176,9 @@ body{font-family:proxima_novaregular,arial,helvetica,sans-serif;margin:0 auto}
 
 .button__vector5{display:none}
 
-.c-section__address{display:flex;position:absolute;right:0;bottom:0;width:220px}
+.c-section__address{display:flex;position:absolute;right:0;bottom:0;width:230px}
 
-.c-section__address-text{font:800 12px/15px proxima_nova_condensedbold, arial, helvetica, sans-serif;margin-right:10px;padding:0 0 8px 8px}
+.c-section__address-text{font:800 12px/15px proxima_nova_condensedbold, arial, helvetica, sans-serif;margin-right:10px;padding:0 0 8px 0}
 
 .c-section__address-img{width:82px;height:22px;padding:10px 0 0 0}
 
@@ -186,15 +186,15 @@ body{font-family:proxima_novaregular,arial,helvetica,sans-serif;margin:0 auto}
 
 .description-wrapper{background-size:40%}
 
-.b-section__img-grey{width:248px;height:265px;padding:220px 40px 0 0}
+.b-section__img-grey{width:248px;height:auto;padding:220px 40px 0 0}
 
-.b-section__img-pink{width:432px;height:694px;padding:30px 0 0 104px}
+.b-section__img-pink{width:432px;height:auto;padding:30px 0 0 104px}
 
 .b-section__main-inf{margin:0 0 0 53%}
 
 .c-section__other-offers-wrapper{margin:410px 0 0 0}}
 
-@media (max-width: 1120px){.header__title{margin:36px 32% 0 56px}
+@media (max-width: 1120px){.header__title{margin:36px 25% 0 56px}
 
 .description-wrapper{background:top 50% left 15% no-repeat url(img/image1.png);background-size:34%;padding:7% 0 5% 50%}
 
@@ -202,15 +202,15 @@ body{font-family:proxima_novaregular,arial,helvetica,sans-serif;margin:0 auto}
 
 .b-section__main-inf{margin:0 0 0 48%}
 
-.b-section__img-grey{width:198px;height:215px;padding:25% 40px 0 0}
+.b-section__img-grey{width:198px;height:auto;padding:25% 40px 0 0}
 
-.b-section__img-pink{width:282px;height:544px;padding:12% 0 0 104px}
+.b-section__img-pink{width:282px;height:auto;padding:12% 0 0 104px}
 
 .c-section__main-inf{width:70%}}
 
-@media (max-width: 980px){.header__language,.a-section__social-media{display:none}
+@media (max-width: 980px){.b-section-wrapper{width:100%}
 
-.b-section-wrapper{width:100%}
+.header__title {margin: 36px 20% 0 50px}
 
 .hamburger-menu{position:relative;margin-right:0}
 
@@ -228,13 +228,17 @@ body{font-family:proxima_novaregular,arial,helvetica,sans-serif;margin:0 auto}
 
 .b-section__other-offers-wrapper{margin:0;width:468px}
 
-.b-section__img-grey{width:198px;height:215px;padding:30% 40px 0 0}
+.b-section__img-grey{width:198px;height:auto;padding:30% 40px 0 0}
 
-.b-section__img-pink{width:242px;height:504px;padding:18% 0 0 74px}
+.b-section__img-pink{width:242px;height:auto;padding:18% 0 0 74px}
 
 .c-section__main-inf{width:60%}}
 
-@media (max-width: 780px){.description-wrapper{text-align:left;padding:378px 0 0 33%;background:top 10% left 30% no-repeat url(img/image1.png);background-size:60%}
+@media (max-width: 780px){.description-wrapper{text-align:left;padding:0 0 0 33%;background:top 50% left 2% no-repeat url(img/image1.png);background-size:25%}
+
+.header__language {display: none}
+
+.a-section__social-media {padding: 6px 0 9px 15px}
 
 .a-section__button{width:140px;padding:14px 8px}
 
@@ -242,7 +246,7 @@ body{font-family:proxima_novaregular,arial,helvetica,sans-serif;margin:0 auto}
 
 .b-section__main-inf{margin:0 0 0 40%}
 
-.b-section__description{width:340px;height:554px;padding:0 20px}
+.b-section__description{width:340px;height:554px;padding:0 10px}
 
 .b-section__subtitle{margin:14px 0 40px 0}
 
@@ -256,9 +260,11 @@ body{font-family:proxima_novaregular,arial,helvetica,sans-serif;margin:0 auto}
 
 .b-section__img-grey{display:none}
 
-.b-section__img-pink{width:242px;height:504px;padding:25% 0 0 0}
+.b-section__img-pink{width:242px;height:auto;padding:25% 0 0 0}
 
-.c-section__img{margin-left:2%}
+.c-section__img{margin-left:2%;width: 97.5%}
+
+.c-section__other-offers-wrapper {margin: 410px 0 0 -30%}
 
 .c-section__main-inf{width:45%}}
 
@@ -268,19 +274,23 @@ body{font-family:proxima_novaregular,arial,helvetica,sans-serif;margin:0 auto}
 
 .header__title{margin:30px 32% 0 30px}
 
-.description-wrapper{margin:0;height:360px;padding:378px 0 0 26%;background:top 10% left 1% no-repeat url(img/image1.png);background-size:60%}
+.description-wrapper{text-align:center;margin:0 auto;height:360px;padding:308px 0 0 0;background:top 10% left 50% no-repeat url(img/image1.png);background-size:100%;width: 360px}
 
-.a-section__title{font:700 50px/51px proxima_nova_condensedbold, arial, helvetica, sans-serif;margin:150px 0 20px 0}
+.a-section__title{text-align:left;font:800 50px/51px proxima_nova_condensedbold, arial, helvetica, sans-serif;margin:150px 0 0 0}
 
-.button__vector2{display:flex;margin:0 0 0 10%}
+.button__vector2{display:flex;margin:0 0 0 50%}
 
 .b-section__img-pink{display:none}
 
 .b-section__description{margin:148px 0 0 0}
 
-.b-section__main-inf{display:flex;justify-content:space-between;text-align:left;background:no-repeat url(img/image8.png);padding:26% 0 0 0;background-size:70%;background-position:top -10% right 22%;margin:0;height:740px;width:320px}
+.b-section__main-inf{display:flex;justify-content:space-between;text-align:center;background:no-repeat url(img/image8.png);padding:26% 0 0 0;background-size:70%;background-position:top -10% right 50%;margin:0 auto;height:740px;width:320px}
 
-.c-section__main-inf{display:block;text-align:left;padding:16% 0 0 0;margin:0;height:820px;width:80%}
+.b-section__title,.b-section__subtitle,.b-section__text {display: flex;text-align: left}
+
+.b-section__buttons-wrapper {padding-top: 30px}
+
+.c-section__main-inf{display:block;text-align:center;padding:16% 0 0 0;margin:0 auto;height:820px;width:80%}
 
 .c-section__description{position:absolute;top:45%;left:0%;width:377px;height:331px;background:#fae8e4;padding:16px 0 0 0}
 
@@ -288,25 +298,27 @@ body{font-family:proxima_novaregular,arial,helvetica,sans-serif;margin:0 auto}
 
 .c-section__other-offers-wrapper{display:none}}
 
+@media (max-width: 430px) {.c-section__main-inf {margin: 0 auto;height: 820px;width: 100%}
+
 @media (max-width: 377px){.header{display:flex;justify-content:space-between;margin:0;height:70px}
 
 .wrapper__color_black{background:#fff}
 
 .wrapper__color_white{margin:0}
 
-.hamburger-menu{background:#ededed;height:70px;width:54px}
+.hamburger-menu{background:#ededed;height:70px;width:70px}
 
 .menu__btn>span::before,.menu__btn>span::after{display:block;position:absolute;width:26px;height:3px}
 
-.menu__btn{display:flex;align-items:center;position:absolute;top:15px;right:6px}
+.menu__btn{display:flex;align-items:center;position:absolute;top:16px;right:24px}
 
-.a-section__title{font:700 50px/51px proxima_nova_condensedbold, arial, helvetica, sans-serif;margin:234px 0 0 32px;letter-spacing:0.06em}
+.a-section__title{font:800 50px/51px proxima_nova_condensedbold, arial, helvetica, sans-serif;margin:237px 0 0 24px}
 
-.description-wrapper{text-align:left;padding:130px 0 0 0;margin:0;background:top 100% left no-repeat url(img/image11.png);height:397px}
+.description-wrapper{text-align:left;padding:130px 0 0 0;margin:0;background:top 100% left no-repeat url(img/image11.png);height:397px;width: 376px}
 
 .header__title{font:600 30px/37px proxima_novaregular, arial, helvetica, sans-serif;background-color:#fff;color:#000;margin:14px 0 0 26px;letter-spacing:0.16em}
 
-.button__vector2{display:flex;margin:0 0 0 35%}
+.button__vector2{display:flex;margin:0 0 0 46%}
 
 .a-section{height:526px}
 
@@ -314,7 +326,7 @@ body{font-family:proxima_novaregular,arial,helvetica,sans-serif;margin:0 auto}
 
 .b-section-wrapper{height:600px}
 
-.b-section__main-inf{background:no-repeat url(img/image8.png);padding:73% 0 0 0;background-size:70%;background-position:top -18% right 22%;height:350px}
+.b-section__main-inf{text-align:left;background:no-repeat url(img/image8.png);padding:70% 0 0 0;background-size:70%;background-position:top -18% right 22%;height:350px;margin: 0}
 
 .b-section__description{width:260px;height:281px;padding:0 31px;margin:0 27px}
 
@@ -342,11 +354,11 @@ body{font-family:proxima_novaregular,arial,helvetica,sans-serif;margin:0 auto}
 
 .c-section{height:597px}
 
-.c-section__main-inf{display:block;justify-content:space-between;position:relative;width:80%;height:560px;background:top left 41% no-repeat url(img/image13.png);align-items:center;padding:36px 0 0 0}
+.c-section__main-inf{display:block;justify-content:space-between;position:relative;width:80%;height:560px;background:top left 39% no-repeat url(img/image13.png);text-align:left;padding:36px 0 0 0;margin: 0}
 
-.c-section__img{width:119.5%;height:auto;top:10px;margin-left:5%;box-shadow:5px 5px 30px #c0afbd}
+.c-section__img{width:116%;height:auto;top:10px;margin-left:4%;box-shadow:5px 5px 30px #c0afbd}
 
-.c-section__description{position:absolute;top:47%;left:15%;width:305px;height:179px;background:#fae8e4;padding:12px 0 0 25px}
+.c-section__description{position:absolute;top:46%;left:15%;width:279px;height:178px;background:#fae8e4;padding:18px 0 0 25px}
 
 .c-section__title{font:800 23px/0 proxima_nova_condensedbold,arial,helvetica,sans-serif}
 
@@ -358,11 +370,11 @@ body{font-family:proxima_novaregular,arial,helvetica,sans-serif;margin:0 auto}
 
 .c-section__add-button{padding:18px 45px;width:260px;font-weight:500;font-size:13px;line-height:0px;text-decoration:none;color:#000;border:1px solid #000}
 
-.c-section__other-offers-wrapper{display:block;justify-content:space-between;align-items:center;width:205px;height:40px;margin:210px 0 0 187px;padding:0}
+.c-section__other-offers-wrapper{display:block;justify-content:space-between;align-items:center;width:80px;height:40px;margin:205px 0 0 188px;padding:0}
 
 .c-section__description-wrapper{height:230px}
 
-.c-section__other-offers-button{font:500 15px/18px proxima_novaregular,arial,helvetica,sans-serif;text-decoration:none;color:#000;width:140px;height:38px;letter-spacing:0.07em}
+.c-section__other-offers-button{font:500 15px/18px proxima_novaregular,arial,helvetica,sans-serif;text-decoration:none;color:#000;width:140px;height:40px;letter-spacing:0.07em}
 
 .c-section__arrow{border-width:0}
 
