@@ -24,7 +24,7 @@ body {
 .header__title {
   font: 500 30px/37px proxima_novaregular, arial, helvetica, sans-serif;
   color: #fff;
-  margin: 36px 52% 0 56px;
+  margin: 36px 53% 0 56px;
   letter-spacing: 0.07em;
 }
 
@@ -118,7 +118,7 @@ body {
 
 .description-wrapper {
   background: top left 25.5% no-repeat url(img/image1.png);
-  padding: 106px 0 5% 55%;
+  padding: 102px 0 5% 55%;
   margin: 0 0 67px 0;
   height: 397px;
   width: 491px;
@@ -126,31 +126,29 @@ body {
 }
 
 .a-section__title {
-  font: 800 78px/82px proxima_nova_condensedbold, arial, helvetica, sans-serif;
+  font: 700 80px/82px 'Montserrat', arial, helvetica, sans-serif;
   color: #000;
-  margin: 0 0 14px 0;
+  margin: 0 0 18px 0;
 }
 
 .a-section__text {
-  font: 500 15px/21px proxima_novaregular, arial, helvetica, sans-serif;
+  font: 400 15px/21px 'Montserrat', arial, helvetica, sans-serif;
   color: #000;
   margin: 0 30px 36px 0;
-  letter-spacing: 0.07em;
 }
 
 .a-section__button {
   display: inline-block;
-  font: 14px proxima_novaregular, arial, helvetica, sans-serif;
+  font: 500 13px 'Montserrat', arial, helvetica, sans-serif;
   margin: 0 46px 36px 0;
-  width: 203px;
+  width: 200px;
   height: 44px;
   border: 1.5px solid #000;
   box-sizing: border-box;
   color: #000;
-  padding: 12px 30px;
+  padding: 12px 34px;
   text-decoration: none;
   transition: opacity 0.5s;
-  letter-spacing: 0.07em;
 }
 
 .a-section__button:hover {
@@ -160,12 +158,11 @@ body {
 
 .a-section__button-other-offers {
   display: inline;
-  font: 13px proxima_novaregular, arial, helvetica, sans-serif;
-  margin: 0;
+  font: 500 13px 'Montserrat', arial, helvetica, sans-serif;
+  margin: 0 10px 0 0;
   box-sizing: border-box;
   color: #000;
   text-decoration: none;
-  letter-spacing: 0.08em;
 }
 
 .a-section__arrow {
