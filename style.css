@@ -125,9 +125,7 @@ body {
   border-radius: 0;
 }
 
-.a-section__title {
-  display: block;
-  font: 800 78px/82px proxima_nova_condensedbold, arial, helvetica, sans-serif;
+
   color: #000;
   margin: 0 0 14px 0;
 }
