@@ -728,7 +728,7 @@ body {
   }
 
   .a-section__title {
-    font: 700 50px/51px proxima_nova_condensedbold, arial, helvetica, sans-serif;
+    font: 700 50px/51px Montserrat, arial, helvetica, sans-serif;
     margin: 0 0 20px 0;
     width: 297px;
     height: 103px;
@@ -778,7 +778,7 @@ body {
     padding: 0 0 0 32%;
     background: top 50% left 2% no-repeat url(img/image1.png);
     background-size: 25%;
-    width: 441px;
+    width: 401px;
   }
 
   .header__language {
@@ -800,7 +800,7 @@ body {
 
   .b-section__main-inf {
     margin: 0 0 0 40%;
-    width: 308px;
+    width: 208px;
   }
 
   .b-section__description {
@@ -822,12 +822,21 @@ body {
     width: 340px;
   }
 
+  .b-section__other-offers-wrapper {
+    margin: 0;
+    width: 288px;
+  }
+
+  .b-section__choose-wrapper {
+    width: 327px;
+  }
+
   .button__vector3 {
     display: none;
   }
 
   .b-section__price {
-    margin: 0 16% 0 0;
+    margin:0;
   }
 
   .b-section__img-grey {
@@ -847,6 +856,10 @@ body {
 
   .c-section__other-offers-wrapper {
     margin: 410px 0 0 -30%;
+  }
+
+  .c-section__description {
+    width: 392px;
   }
 
   .c-section__main-inf {
@@ -1010,7 +1023,7 @@ body {
   }
 
   .a-section__title {
-    font: 800 50px/51px proxima_nova_condensedbold, arial, helvetica, sans-serif;
+    font: 700 50px/51px 'Montserrat', arial, helvetica, sans-serif;
     margin: 237px 0 0 24px;
   }
 
@@ -1020,7 +1033,7 @@ body {
     margin: 0;
     background: top 100% left no-repeat url(img/image11.png);
     height: 397px;
-    width: 376px;
+    width: 100%;
   }
 
   .header__title {
@@ -1062,7 +1075,7 @@ body {
     width: 260px;
     height: 281px;
     padding: 0 31px;
-    margin: 0 27px;
+    margin: 0 0 0 27px;
   }
 
   .b-section__title {
@@ -1167,11 +1180,12 @@ body {
     width: 279px;
     height: 178px;
     background: #fae8e4;
-    padding: 18px 0 0 25px;
+    padding: 20px 0 0 25px;
   }
 
   .c-section__title {
-    font: 800 23px/0 proxima_nova_condensedbold, arial, helvetica, sans-serif;
+    font: 700 20px/0 'Montserrat', arial, helvetica, sans-serif;
+    margin: 16px 0 22px 0;
   }
 
   .c-section__subtitle {
