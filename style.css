@@ -804,7 +804,7 @@ body {
   }
 
   .b-section__description {
-    width: 340px;
+    width: 320px;
     height: 554px;
     padding: 0 10px;
   }
@@ -819,7 +819,7 @@ body {
 
   .b-section__buttons-wrapper {
     padding-top: 50px;
-    width: 340px;
+    width: 320px;
   }
 
   .b-section__other-offers-wrapper {
