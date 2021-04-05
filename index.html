@@ -1,15 +1,123 @@
 <!DOCTYPE html>
 <html>
- <head>
+<head>
   <meta charset="utf-8">
-  <title>Пример страницы</title>
-  <style>
-  p { color:  navy; }
-  </style>
- </head>
- <body>
-  <p>Страница на HTML5</p>
- </body>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LOCO</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="wrapper__color_black">
+      <h1 class="header__title">LOCO</h1>
+      <div class="header__language">RU</div>
+    </div>
+    <div class="wrapper__color_white">
+      <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span>
+        </label>
+      </div>
+    </div>
+    </header>
+  <main>
+    <section class="a-section">
+      <div class="description-wrapper">
+        <h2 class="a-section__title">Новая коллекция</h2>
+        <p class="a-section__text">Бесплатная доставка включена. Предложение действует на сайте loco.com и в магазинах до 18.09.2018. Для получения скидки в магазинах предъявите скриншот данного предложения. В магазинах предложение не суммируется с другими акциями, предложениями и распродажей.</p>
+        <a class="a-section__button" href="#">ЧИТАТЬ ДАЛЬШЕ</a>
+        <a class="a-section__button-other-offers" href="#">ДРУГИЕ ПРЕДЛОЖЕНИЯ</a>
+        <hr class="a-section__arrow">
+          <img src="img/vector1.png" alt="vector1" class="button__vector1">
+          <img src="img/vector2.png" alt="vector2" class="button__vector2">
+      </div>
+      <div class="wrapper">
+        <div class="a-section__social-media">
+          <div class="a-section__social-media-button-inst">
+            <img src="img/image2.png" alt="Instagram" class="a-section__inst-icon"/>
+          </div>
+          <div class="a-section__social-media-button-vk">
+            <img src="img/image3.png" alt="VK" class="a-section__vk-icon"/>
+          </div>
+          <div class="a-section__social-media-button-f-book">
+            <img src="img/image4.png" alt="Facebook" class="a-section__f-book-icon"/>
+          </div>
+          <div class="scroll">
+            <img src="img/image5.png" alt="" class="a-section__img-oval"/>
+            <img src="img/image6.png" alt="" class="a-section__img-sign"/>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="b-section">
+      <div class="b-section-wrapper">
+        <img src="img/image7.png" alt="Кожаный клатч" class="b-section__img-grey"/>
+        <img src="img/image8.png" alt="Кожаный клатч" class="b-section__img-pink"/>
+        <article class="b-section__main-inf">
+          <div class="b-section__description">
+            <h3 class="b-section__title">Кожаный клатч</h3>
+            <p class="b-section__subtitle">ОСЕННЯЯ КОЛЛЕКЦИЯ</p>
+            <span class="b-section__text">Бесплатная доставка включена. Предложение действует на сайте loco.com и в магазинах до 18.09.2018. Для получения скидки в магазинах предъявите скриншот данного предложения. В&nbsp;магазинах предложение не суммируется с другими акциями, предложениями и распродажей.</span>
+              <div class="b-section__choose-wrapper">
+                <div class="b-section__choose-color-container">
+                    <span class="b-section__circle b-section__circle_grey"></span>
+                    <span class="b-section__circle b-section__circle_pink b-section__circle_active"></span>
+                    <span class="b-section__circle b-section__circle_blue"></span>
+                    <span class="b-section__circle b-section__circle_green"></span>
+                </div>
+                <div class="b-section__price">1990₽</div>
+              </div>
+            <div class="b-section__buttons-wrapper">
+              <div class="b-section__counter">
+                <a class="b-section__counter-element-minus" href="#">-</a>
+                <div class="b-section__counter-element">1</div>
+                <a class="b-section__counter-element-plus" href="#">+</a>
+              </div>
+              <a class="b-section__add-button" href="#">ДОБАВИТЬ В КОРЗИНУ</a>
+            </div>
+          </div>
+            <div class="b-section__other-offers-wrapper">
+              <a class="b-section__other-offers-button" href="#">ДРУГИЕ ТОВАРЫ НА LOCO.COM</a>
+              <hr class="b-section__arrow">
+                <img src="img/vector3.png" alt="vector" class="button__vector3">
+            </div>
+        </article>
+      </div>
+    </section>
+    <section class="c-section">
+      <article class="c-section__main-inf">
+        <img src="img/image9.png" alt="Serene Total Look" class="c-section__img"/>
+        <div class="c-section__description-wrapper">
+          <div class="c-section__description">
+            <h4 class="c-section__title">Serene Total Look</h4>
+            <p class="c-section__subtitle">ОСЕННЯЯ КОЛЛЕКЦИЯ</p>
+            <span class="c-section__text">Джинсы, свитер, обувь.<br/>В комплект также входит пакет ароматного чая и кружка. </span>
+            <div class="c-section__buttons-wrapper">
+              <div class="c-section__counter">
+                <a class="c-section__counter-element-minus" href="#">-</a>
+                <div class="c-section__counter-element">1</div>
+                <a class="c-section__counter-element-plus" href="#">+</a>
+              </div>
+              <a class="c-section__add-button" href="#">ДОБАВИТЬ В КОРЗИНУ</a>
+            </div>
+          </div>
+          <div class="c-section__other-offers-wrapper">
+            <div class="c-section__other-offers-button">ДРУГИЕ ТОВАРЫ НА LOCO.COM</div>
+            <hr class="c-section__arrow">
+              <img src="img/vector4.png" alt="vector" class="button__vector4">
+              <img src="img/vector5.png" alt="vector" class="button__vector5">
+          </div>
+        </div>
+      </article>
+      <address class="c-section__address">
+        <p class="c-section__address-text">РАЗРАБОТАНО В</p>
+        <img src="img/image10.png" alt="WebHero School" class="c-section__address-img"/>
+      </address>
+    </section>
+  </main>
+</body>
 </html>
-Посмотреть пример
-Посмотреть пример

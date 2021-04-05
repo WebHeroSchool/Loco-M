@@ -1,0 +1,381 @@
+body{font-family:proxima_novaregular,arial,helvetica,sans-serif;margin:0 auto}
+
+.header{display:flex;justify-content:space-between;margin:0 0 78px 0;height:92px}
+
+.wrapper__color_black{width:47%;height:900px;background:#000}
+
+.header__title,.header__language{display:inline-block}
+
+.header__title{font:500 30px/37px proxima_novaregular, arial, helvetica, sans-serif;color:#fff;margin:36px 52% 0 56px;letter-spacing:0.07em}
+
+.header__language{font:500 20px/25px proxima_novaregular,arial,helvetica,sans-serif;color:#fff}
+
+.header__language:hover{opacity:0.4;cursor:pointer}
+
+.header__language::after{content:"";margin:2px 7px;border:solid white;border-width:0 2px 2px 0;display:inline-block;padding:3px;transform:rotate(45deg);-webkit-transform:rotate(45deg)}
+
+.wrapper__color_white{display:flex;justify-content:flex-end;height:900px;width:100%}
+
+.hamburger-menu{background:#e5e5e5;width:92px;height:92px}
+
+.menu__btn>span::before,.menu__btn>span::after{display:block;position:absolute;width:35px;height:4px;background-color:#000;transition-duration:0.25s}
+
+.menu__btn>span::before{content:'';margin-top:0}
+
+.menu__btn>span::after{content:'';margin-top:9px}
+
+#menu__toggle{opacity:0}
+
+#menu__toggle:checked~.menu__btn>span::before{top:8px;transform:rotate(0)}
+
+#menu__toggle:checked~.menu__btn>span::after{top:0;transform:rotate(90deg)}
+
+.menu__btn{display:flex;align-items:center;position:absolute;top:27px;right:37px;width:26px;height:26px;cursor:pointer;z-index:1}
+
+.a-section{display:block;justify-content:space-between;position:relative;margin:0;height:730px}
+
+.description-wrapper{background:top left 25.5% no-repeat url(img/image1.png);padding:106px 0 5% 55.5%;margin:0 0 67px 0;height:397px;width:491px;border-radius:0}
+
+.a-section__title{font:800 78px/82px proxima_nova_condensedbold, arial, helvetica, sans-serif;color:#000;margin:0 0 14px 0}
+
+.a-section__text{font:500 15px/21px proxima_novaregular, arial, helvetica, sans-serif;color:#000;margin:0 30px 36px 0;letter-spacing:0.07em}
+
+.a-section__button{display:inline-block;font:14px proxima_novaregular, arial, helvetica, sans-serif;margin:0 46px 36px 0;width:203px;height:44px;border:1.5px solid #000;box-sizing:border-box;color:#000;padding:12px 30px;text-decoration:none;transition:opacity 0.5s;letter-spacing:0.07em}
+
+.a-section__button:hover{opacity:0.5;background:#0056ec}
+
+.a-section__button-other-offers{display:inline;font:13px proxima_novaregular,arial,helvetica,sans-serif;margin:0;box-sizing:border-box;color:#000;text-decoration:none;letter-spacing:0.08em}
+
+.a-section__arrow{display:inline;margin:0 0 0 10px;width:43px;height:10px;border-width:0}
+
+.a-section__arrow:hover{opacity:0.4}
+
+.button__vector2{display:none}
+
+.wrapper{display:inline-block;;justify-content:space-between;left:10px;bottom:28px;align-items:center;flex-wrap:nowrap;width:240px;height:54px}
+
+.a-section__social-media{display:flex;padding:6px 0 9px 50px;width:34px;height:2.9vw}
+
+.a-section__social-media-button-inst,.a-section__social-media-button-vk,.a-section__social-media-button-f-book{transition:opacity 0.5s ease-out}
+
+.a-section__social-media-button-inst:hover,.a-section__social-media-button-vk:hover,.a-section__social-media-button-f-book:hover{opacity:0.4;cursor:pointer}
+
+.a-section__vk-icon{padding:0 14px}
+
+.scroll{display:flex;position:absolute;text-align:center;margin: 0 0 0 45.5%;width:32px;height:46px}
+
+.a-section__img-oval{position:absolute;margin: 0 auto}
+
+.a-section__img-sign{position:absolute;background-size:50%;padding:10px 0 0 12px;margin: 0 auto}
+
+.b-section{height:900px;background:#fae8e4}
+
+.b-section-wrapper{width:89%;height:900px;margin:auto;display:flex;justify-content:space-between}
+
+.b-section__img-grey{position:absolute;padding:220px 40px 0 50px}
+
+.b-section__img-pink{position:absolute;padding:30px 0 0 154px}
+
+.b-section__main-inf{display:flex;flex-direction:column;justify-content:space-between;margin:0 0 0 63%;height:824px;width:488px}
+
+.b-section__description{width:390px;height:554px;padding:0 40px 0 54px;margin:168px 0 0 0;background:white;box-shadow:5px 5px 30px #c0afbd}
+
+.b-section__title{font:800 39px/41px proxima_nova_condensedbold, arial, helvetica, sans-serif;color:#000;margin:47px 0 0 0}
+
+.b-section__subtitle{font:800 16px/16px proxima_nova_condensedbold, arial, helvetica, sans-serif;color:#000;opacity:0.5;margin:14px 0 62px 0;letter-spacing: 0.07em}
+
+.b-section__text{font:15px/21px proxima_novaregular, arial, helvetica, sans-serif;margin:0 20px 0 0;opacity:0.5;letter-spacing:0.07em}
+
+.b-section__choose-wrapper{padding-top:44px;width:367px;height:43px;display:flex;justify-content:space-between;align-items:center}
+
+.b-section__choose-color-container{width:160px;display:flex;justify-content:space-between;align-items:center}
+
+.b-section__circle{width:30px;height:30px;-moz-border-radius:50px;-webkit-border-radius:50px;border-radius:50px;transition:opacity 0.5s ease-out}
+
+.b-section__circle:hover{opacity:0.4;cursor:pointer}
+
+.b-section__circle_active{width:38px;height:38px}
+
+.b-section__circle_grey{background:#ded}
+
+.b-section__circle_pink{background:#f29f9f}
+
+.b-section__circle_blue{background:#a8bff9}
+
+.b-section__circle_green{background:#90bd8f}
+
+.b-section__price{font:800 48px/50px proxima_nova_condensedbold, arial, helvetica, sans-serif;margin:0 6% 0 0}
+
+.b-section__buttons-wrapper{padding-top:56px;width:365px;height:43px;display:flex;justify-content:space-between;align-items:center}
+
+.b-section__counter{padding:15px 20px 17px 18px;margin-right:10px;display:flex;justify-content:space-around;align-items:center;width:58px;height:12px;border:1.5px solid #000}
+
+.b-section__counter-element-minus,.b-section__counter-element-plus{text-decoration:none;font:500 15px proxima_novaregular, arial, helvetica, sans-serif;width:12px}
+
+.b-section__counter-element{font:500 15px proxima_novaregular, arial, helvetica, sans-serif;transition:opacity 0.5s ease-out;margin:0 22px}
+
+.b-section__counter-element:hover{opacity:0.4;cursor:pointer}
+
+.b-section__add-button{padding:22px 45px;width:163px;font-weight:500;font-size:13px;line-height:0px;text-decoration:none;color:#000;border:1.5px solid #000;transition:opacity 0.5s ease-out;letter-spacing:0.07em}
+
+.b-section__add-button:hover{opacity:0.4;cursor:pointer}
+
+.b-section__other-offers-wrapper{display:flex;justify-content:space-between;align-items:center;width:480px;color:#000;margin:0 0 0 1%;text-decoration:none;transition:opacity 0.5s ease-out}
+
+.b-section__other-offers-wrapper:hover{opacity:0.4;cursor:pointer}
+
+.b-section__other-offers-button{font:500 13px/16px proxima_novaregular, arial, helvetica, sans-serif;text-decoration:none;color:#000;width:230px;height:58px;margin-right:10px;letter-spacing:0.07em}
+
+.b-section__arrow{display:inline;height:0}
+
+.b-section__arrow:hover{opacity:0.4}
+
+.button__vector3{margin:0 0 40px 0}
+
+.c-section{display:block;justify-content:space-between;position:relative;height:900px;background-color:#ebe3d8}
+
+.c-section__main-inf{display:flex;justify-content:space-between;position:relative;width:80%;height:900px;background:top left 36.5% no-repeat url(img/image12.png);align-items:center}
+
+.c-section__img{width:77.5%;height:auto;margin-right:0;margin-left:8%;bottom:115px}
+
+.c-section__description-wrapper{display:flex;flex-direction:column;justify-content:space-between;height:430px;width:27%}
+
+.c-section__description{position:absolute;top:28.5%;left:71.5%;width:422px;height:331px;background:#fae8e4;padding:16px 0 0 4.5%}
+
+.c-section__title{font:800 46px/11px proxima_nova_condensedbold,arial,helvetica,sans-serif;letter-spacing:0.07em}
+
+.c-section__subtitle{font:800 16px/0 proxima_nova_condensedbold, arial, helvetica, sans-serif;letter-spacing:0.03em;color:#000;opacity:0.5;margin:0 0 40px 0}
+
+.c-section__text{display:block;font-size:15px;line-height:21px;color:#000;opacity:0.5;letter-spacing:0.07em;width:360px;padding:0 10px 0 0}
+
+.c-section__buttons-wrapper{padding-top:56px;width:370px;height:43px;display:flex;justify-content:space-between;align-items:center}
+
+.c-section__counter{padding:15px 20px 17px 18px;margin-right:15px;display:flex;justify-content:space-around;align-items:center;width:58px;height:12px;border:1.5px solid #000}
+
+.c-section__counter-element-minus,.c-section__counter-element-plus{text-decoration:none;font:500 15px proxima_novaregular, arial, helvetica, sans-serif;width:12px}
+
+.c-section__counter-element{font:500 15px proxima_novaregular, arial, helvetica, sans-serif;transition:opacity 0.5s ease-out;margin:0 22px}
+
+.c-section__counter-element:hover{opacity:0.4;cursor:pointer}
+
+.c-section__add-button{padding:22px 45px;width:163px;font-weight:500;font-size:13px;line-height:0px;text-decoration:none;color:#000;border:1.5px solid #000;transition:opacity 0.5s ease-out;letter-spacing:0.07em}
+
+.c-section__add-button:hover{opacity:0.4;cursor:pointer}
+
+.c-section__other-offers-wrapper{display:flex;justify-content:space-between;align-items:center;width:345px;color:#000;margin:410px 0 0 10%;text-decoration:none;transition:opacity 0.5s ease-out}
+
+.c-section__other-offers-wrapper:hover{opacity:0.4;cursor:pointer}
+
+.c-section__other-offers-button{font:500 13px/16px proxima_novaregular, arial, helvetica, sans-serif;text-decoration:none;color:#000;width:230px;height:58px;margin-right:10px;letter-spacing:0.07em}
+
+.c-section__arrow{display:inline;height:0}
+
+.c-section__arrow:hover{opacity:0.4}
+
+.button__vector4{margin:0 0 40px 0}
+
+.button__vector5{display:none}
+
+.c-section__address{display:flex;position:absolute;right:0;bottom:0;width:230px}
+
+.c-section__address-text{font:800 12px/15px proxima_nova_condensedbold, arial, helvetica, sans-serif;margin-right:10px;padding:0 0 8px 0}
+
+.c-section__address-img{width:82px;height:22px;padding:10px 0 0 0}
+
+@media (max-width: 1300px){.header__title{margin:36px 42% 0 56px}
+
+.description-wrapper{background-size:40%}
+
+.b-section__img-grey{width:248px;height:auto;padding:220px 40px 0 0}
+
+.b-section__img-pink{width:432px;height:auto;padding:30px 0 0 104px}
+
+.b-section__main-inf{margin:0 0 0 53%}
+
+.c-section__other-offers-wrapper{margin:410px 0 0 0}}
+
+@media (max-width: 1120px){.header__title{margin:36px 25% 0 56px}
+
+.description-wrapper{background:top 50% left 15% no-repeat url(img/image1.png);background-size:34%;padding:7% 0 5% 50%}
+
+.a-section__button{display:inline-block;font:13px proxima_novaregular, arial, helvetica, sans-serif;margin:0 26px 36px 0}
+
+.b-section__main-inf{margin:0 0 0 48%}
+
+.b-section__img-grey{width:198px;height:auto;padding:25% 40px 0 0}
+
+.b-section__img-pink{width:282px;height:auto;padding:12% 0 0 104px}
+
+.c-section__main-inf{width:70%}}
+
+@media (max-width: 980px){.b-section-wrapper{width:100%}
+
+.header__title {margin: 36px 20% 0 50px}
+
+.hamburger-menu{position:relative;margin-right:0}
+
+.description-wrapper{background:top 50% left 10% no-repeat url(img/image1.png);background-size:30%;padding:7% 0 5% 39%}
+
+.a-section__title{font:700 50px/51px proxima_nova_condensedbold, arial, helvetica, sans-serif;margin:0 0 20px 0;width:297px;height:103px}
+
+.a-section__button{margin:0 10px 36px 0}
+
+.b-section__main-inf{margin:0 0 0 40%}
+
+.b-section__description{width:360px}
+
+.b-section__other-offers-button{margin-right:0}
+
+.b-section__other-offers-wrapper{margin:0;width:468px}
+
+.b-section__img-grey{width:198px;height:auto;padding:30% 40px 0 0}
+
+.b-section__img-pink{width:242px;height:auto;padding:18% 0 0 74px}
+
+.c-section__main-inf{width:60%}}
+
+@media (max-width: 780px){.description-wrapper{text-align:left;padding:0 0 0 33%;background:top 50% left 2% no-repeat url(img/image1.png);background-size:25%}
+
+.header__language {display: none}
+
+.a-section__social-media {padding: 6px 0 9px 15px}
+
+.a-section__button{width:140px;padding:14px 8px}
+
+.a-section__text{width:400px}
+
+.b-section__main-inf{margin:0 0 0 40%}
+
+.b-section__description{width:340px;height:554px;padding:0 10px}
+
+.b-section__subtitle{margin:14px 0 40px 0}
+
+.b-section__add-button{padding:22px 25px}
+
+.b-section__buttons-wrapper{padding-top:50px;width:340px}
+
+.button__vector3{display:none}
+
+.b-section__price{margin:0 16% 0 0}
+
+.b-section__img-grey{display:none}
+
+.b-section__img-pink{width:242px;height:auto;padding:25% 0 0 0}
+
+.c-section__img{margin-left:2%;width: 97.5%}
+
+.c-section__other-offers-wrapper {margin: 410px 0 0 -30%}
+
+.c-section__main-inf{width:45%}}
+
+@media (max-width: 600px){.header__language,.a-section__text,.a-section__button,.a-section__button-other-offers,.button__vector1,.a-section__social-media,.b-section__other-offers-wrapper{display:none}
+
+.wrapper__color_white,.wrapper__color_black{height:92px}
+
+.header__title{margin:30px 32% 0 30px}
+
+.description-wrapper{text-align:center;margin:0 auto;height:360px;padding:308px 0 0 0;background:top 10% left 50% no-repeat url(img/image1.png);background-size:100%;width: 360px}
+
+.a-section__title{text-align:left;font:800 50px/51px proxima_nova_condensedbold, arial, helvetica, sans-serif;margin:150px 0 0 0}
+
+.button__vector2{display:flex;margin:0 0 0 50%}
+
+.b-section__img-pink{display:none}
+
+.b-section__description{margin:148px 0 0 0}
+
+.b-section__main-inf{display:flex;justify-content:space-between;text-align:center;background:no-repeat url(img/image8.png);padding:26% 0 0 0;background-size:70%;background-position:top -10% right 50%;margin:0 auto;height:740px;width:320px}
+
+.b-section__title,.b-section__subtitle,.b-section__text {display: flex;text-align: left}
+
+.b-section__buttons-wrapper {padding-top: 30px}
+
+.c-section__main-inf{display:block;text-align:center;padding:16% 0 0 0;margin:0 auto;height:820px;width:80%}
+
+.c-section__description{position:absolute;top:45%;left:0%;width:377px;height:331px;background:#fae8e4;padding:16px 0 0 0}
+
+.c-section__title{font:800 40px/11px proxima_nova_condensedbold,arial,helvetica,sans-serif}
+
+.c-section__other-offers-wrapper{display:none}}
+
+@media (max-width: 430px) {.c-section__main-inf {margin: 0 auto;height: 820px;width: 100%}
+
+@media (max-width: 377px){.header{display:flex;justify-content:space-between;margin:0;height:70px}
+
+.wrapper__color_black{background:#fff}
+
+.wrapper__color_white{margin:0}
+
+.hamburger-menu{background:#ededed;height:70px;width:70px}
+
+.menu__btn>span::before,.menu__btn>span::after{display:block;position:absolute;width:26px;height:3px}
+
+.menu__btn{display:flex;align-items:center;position:absolute;top:16px;right:24px}
+
+.a-section__title{font:800 50px/51px proxima_nova_condensedbold, arial, helvetica, sans-serif;margin:237px 0 0 24px}
+
+.description-wrapper{text-align:left;padding:130px 0 0 0;margin:0;background:top 100% left no-repeat url(img/image11.png);height:397px;width: 376px}
+
+.header__title{font:600 30px/37px proxima_novaregular, arial, helvetica, sans-serif;background-color:#fff;color:#000;margin:14px 0 0 26px;letter-spacing:0.16em}
+
+.button__vector2{display:flex;margin:0 0 0 46%}
+
+.a-section{height:526px}
+
+.b-section{height:596px}
+
+.b-section-wrapper{height:600px}
+
+.b-section__main-inf{text-align:left;background:no-repeat url(img/image8.png);padding:70% 0 0 0;background-size:70%;background-position:top -18% right 22%;height:350px;margin: 0}
+
+.b-section__description{width:260px;height:281px;padding:0 31px;margin:0 27px}
+
+.b-section__title{font:800 19px/21px proxima_nova_condensedbold, arial, helvetica, sans-serif;margin:20px 0 0 0}
+
+.b-section__subtitle{font:800 10px/11px proxima_nova_condensedbold, arial, helvetica, sans-serif;margin:1px 0 16px 0;letter-spacing:0.07em}
+
+.b-section__text{display:block;font:9px/12px proxima_novaregular,arial,helvetica,sans-serif;width:252px;height:84px;padding:0;letter-spacing:0.07em;margin:0}
+
+.b-section__choose-wrapper{padding-top:0;width:290px}
+
+.b-section__choose-color-container{width:130px}
+
+.b-section__circle{width:23px;height:23px}
+
+.b-section__circle_active{width:29px;height:29px}
+
+.b-section__price{margin:0 13% 0 0;font:800 22px/24px proxima_nova_condensedbold,arial,helvetica,sans-serif;letter-spacing:0.07em}
+
+.b-section__buttons-wrapper{padding-top:22px;width:260px;letter-spacing:0.07em}
+
+.b-section__add-button{font-weight:500;font-size:13px;line-height:16px;text-align:center;width:260px;height:37px;border:1px solid #000;box-sizing:border-box;padding:10px 33px}
+
+.b-section__counter,.c-section__address,.c-section__counter,.button__vector4{display:none}
+
+.c-section{height:597px}
+
+.c-section__main-inf{display:block;justify-content:space-between;position:relative;width:80%;height:560px;background:top left 39% no-repeat url(img/image13.png);text-align:left;padding:36px 0 0 0;margin: 0}
+
+.c-section__img{width:116%;height:auto;top:10px;margin-left:4%;box-shadow:5px 5px 30px #c0afbd}
+
+.c-section__description{position:absolute;top:46%;left:15%;width:279px;height:178px;background:#fae8e4;padding:18px 0 0 25px}
+
+.c-section__title{font:800 23px/0 proxima_nova_condensedbold,arial,helvetica,sans-serif}
+
+.c-section__subtitle{font:800 10px/1px proxima_nova_condensedbold, arial, helvetica, sans-serif;margin:0 0 16px 0}
+
+.c-section__text{font:9px/12px proxima_novaregular,arial,helvetica,sans-serif;width:230px}
+
+.c-section__buttons-wrapper{padding-top:23px;width:260px;height:36px}
+
+.c-section__add-button{padding:18px 45px;width:260px;font-weight:500;font-size:13px;line-height:0px;text-decoration:none;color:#000;border:1px solid #000}
+
+.c-section__other-offers-wrapper{display:block;justify-content:space-between;align-items:center;width:80px;height:40px;margin:205px 0 0 188px;padding:0}
+
+.c-section__description-wrapper{height:230px}
+
+.c-section__other-offers-button{font:500 15px/18px proxima_novaregular,arial,helvetica,sans-serif;text-decoration:none;color:#000;width:140px;height:40px;letter-spacing:0.07em}
+
+.c-section__arrow{border-width:0}
+
+.button__vector5{display:flex;margin:0;text-decoration:none}}
